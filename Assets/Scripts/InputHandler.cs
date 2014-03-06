@@ -122,20 +122,20 @@ public class InputHandler : MonoBehaviour {
 	}
 
     void keyboardUpdate() {
-        if (Input.GetKeyDown("left"))
-            mGlobalInputState.mButtons[eInputCommand.LEFT].justPressed();
-        if (Input.GetKeyDown("right"))
-            mGlobalInputState.mButtons[eInputCommand.RIGHT].justPressed();
-        if (Input.GetKeyDown("down"))
-            mGlobalInputState.mButtons[eInputCommand.DOWN].justPressed();
-        if (Input.GetKeyDown("up"))
-            mGlobalInputState.mButtons[eInputCommand.UP].justPressed();
-        if (Input.GetKeyDown("enter"))
-            mGlobalInputState.mButtons[eInputCommand.ACCEPT].justPressed();
-        if (Input.GetKeyDown("escape")) {
-            mGlobalInputState.mButtons[eInputCommand.CANCEL].justPressed();
-            mGlobalInputState.mButtons[eInputCommand.MENU].justPressed();
-        }
+        //if (Input.GetKeyDown("left"))
+        //    mGlobalInputState.mButtons[eInputCommand.LEFT].justPressed();
+        //if (Input.GetKeyDown("right"))
+        //    mGlobalInputState.mButtons[eInputCommand.RIGHT].justPressed();
+        //if (Input.GetKeyDown("down"))
+        //    mGlobalInputState.mButtons[eInputCommand.DOWN].justPressed();
+        //if (Input.GetKeyDown("up"))
+        //    mGlobalInputState.mButtons[eInputCommand.UP].justPressed();
+        //if (Input.GetKeyDown("enter"))
+        //    mGlobalInputState.mButtons[eInputCommand.ACCEPT].justPressed();
+        //if (Input.GetKeyDown("escape")) {
+        //    mGlobalInputState.mButtons[eInputCommand.CANCEL].justPressed();
+        //    mGlobalInputState.mButtons[eInputCommand.MENU].justPressed();
+        //}
 
     }
 
